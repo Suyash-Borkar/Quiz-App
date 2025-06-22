@@ -1,0 +1,94 @@
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f0f2f5;
+margin: 0;
+padding: 0;
+color: #333;
+}
+
+.container {
+max-width: 700px;
+margin: auto;
+padding: 40px 20px;
+text-align: center;
+background: white;
+margin-top: 40px;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+font-size: 2rem;
+margin-bottom: 20px;
+}
+
+.subtitle {
+font-size: 1.2rem;
+color: #777;
+margin-bottom: 30px;
+}
+
+.btn, .option-btn {
+background-color: #4CAF50;
+color: white;
+border: none;
+padding: 12px 24px;
+margin: 12px;
+border-radius: 8px;
+font-size: 16px;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+
+.btn:hover, .option-btn:hover {
+background-color: #388E3C;
+}
+
+.question {
+font-size: 1.5rem;
+margin-bottom: 20px;
+}
+
+.options {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.option-btn {
+width: 80%;
+text-align: center;
+}
+
+.progress {
+margin-top: 20px;
+color: #555;
+}
+
+.review-title {
+margin-top: 40px;
+font-size: 1.3rem;
+color: #444;
+}
+
+.review-list {
+list-style: none;
+padding: 0;
+text-align: left;
+}
+
+.review-item {
+margin-bottom: 20px;
+border-bottom: 1px solid #eee;
+padding-bottom: 10px;
+}
+
+.correct {
+color: green;
+font-weight: bold;
+}
+
+.wrong {
+color: red;
+font-weight: bold;
+}
